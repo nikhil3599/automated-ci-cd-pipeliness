@@ -1,3 +1,7 @@
+
+nikhil created ci/cd pipelines
+
+
 Automated CI Pipeline for a Web Application using Jenkins Project Overview This project demonstrates how to design and implement a Continuous Integration (CI) pipeline using Jenkins for a modern web application. The pipeline automatically triggers whenever new code is pushed to the GitHub repository. It performs a series of automated steps — code checkout, dependency installation, testing, building, and artifact packaging — ensuring that the application is always ready for deployment. The focus is on automation, reliability, and repeatability, which are key principles of modern DevOps practices. Objectives Install and configure Jenkins for CI pipelines. Automate build and test processes for a web application. Integrate GitHub with Jenkins for automatic build triggers. Generate and archive build artifacts. Understand Jenkins pipeline concepts and job configuration. Tech Stack Language / Framework: Node.js (Express) Version Control: GitHub CI Tool: Jenkins Testing Framework: Jest Build Tool: npm Jenkins Pipeline Overview Stage Description
 
 Code Checkout Jenkins pulls the latest code from GitHub (main branch).
